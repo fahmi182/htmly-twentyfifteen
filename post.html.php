@@ -26,6 +26,7 @@
     <?php endif; ?>
     <a id="more"></a>
     <header class="entry-header">
+        <?php if (login()) { echo tab($p); } ?>
         <h2 class="entry-title"><a href="<?php echo $p->url; ?>"><?php echo $p->title; ?></a></h2>
     </header>
     <div class="entry-content">
