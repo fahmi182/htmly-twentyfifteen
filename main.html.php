@@ -1,13 +1,4 @@
-<?php $i = 0; $len = count($posts); ?>
 <?php foreach ($posts as $p): ?>
-    <?php if ($i == 0) {
-        $class = 'post first';
-    } elseif ($i == $len - 1) {
-        $class = 'post last';
-    } else {
-        $class = 'post';
-    }
-    $i++; ?>
 <article class="post type-post hentry <?php if (!empty($p->image) || !empty ($p->audio) || !empty ($p->video)):?>has-post-thumbnail<?php endif;?>">
     <?php if (!empty($p->image)):?>
     <div class="post-thumbnail">

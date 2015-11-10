@@ -37,12 +37,9 @@
         <div class="author-avatar">
             <img width="56" height="56" class="avatar avatar-56" src="<?php echo site_url();?>themes/twentyfifteen/images/avatar.png" alt="<?php echo $author->name; ?>">    
         </div><!-- .author-avatar -->
-
         <div class="author-description">
             <h3 class="author-title"><?php echo $author->name; ?></h3>
-
             <?php echo $author->about ?>
-
         </div><!-- .author-description -->
     </div>
     <footer class="entry-footer">
