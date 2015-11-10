@@ -6088,4 +6088,13 @@ ul.month {
     font-size: 2.2rem;
     line-height: 1.8182;
     margin-bottom: 1.8182em;
+	font-weight: bold;
+}
+
+.post-link a:after {
+	font-family: "Genericons";
+	content: "\f442";
+	position: relative;
+	top: 3px;
+	font-weight: normal;
 }
