@@ -30,7 +30,7 @@
     </header>
     <div class="entry-content">
         <p><?php echo get_teaser($p->body) ?></p>
-        <a class="more-link" href="<?php echo $p->url; ?>#more">Continue reading...</a>
+        <a class="more-link" href="<?php echo $p->url; ?>#more">Continue reading</a>
     </div>
     <footer class="entry-footer">
         <span class="posted-on">
