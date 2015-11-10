@@ -6027,6 +6027,42 @@ ul.month {
     padding: 0;
 }
 
+/*----------------------------
+        Tab
+-----------------------------*/
+
+.tab {
+    width: 100%;
+    line-height: 1;
+    border-bottom: 1px solid #F1F1F1;
+	margin-bottom:1.2308em;
+}
+
+.tab ul {
+	padding:0;
+	margin:0;
+}
+
+.tab  li {
+    display: inline-block;
+	margin:0;
+	padding:0;
+}
+
+.tab a {
+    background: #F1F1F1;
+    border-radius: 6px 6px 0px 0;
+    color: #555555;
+    text-align: center;
+    padding: 8px 14px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/*----------------------------
+        Custom
+-----------------------------*/
+
 .tags-links a:after {
     content:", ";
 }

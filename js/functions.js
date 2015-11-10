@@ -156,7 +156,7 @@
 		$body          = $( document.body );
 		$window        = $( window );
 		$sidebar       = $( '#sidebar' ).first();
-		adminbarOffset = $body.is( '.admin-bar' ) ? $( '#wpadminbar' ).height() : 0;
+		adminbarOffset = $( '#toolbar' ).height();
 
 		$window
 			.on( 'scroll.twentyfifteen', scroll )
