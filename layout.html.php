@@ -125,5 +125,6 @@
     <script type="text/javascript" src="<?php echo site_url();?>themes/twentyfifteen/js/jquery-migrate.js"></script>
     <script type="text/javascript" src="<?php echo site_url();?>themes/twentyfifteen/js/functions.js"></script>
     <script type="text/javascript" src="<?php echo site_url();?>themes/twentyfifteen/js/skip-link-focus-fix.js"></script>
+    <?php if (analytics()): ?><?php echo analytics() ?><?php endif; ?>
 </body>
 </html>
